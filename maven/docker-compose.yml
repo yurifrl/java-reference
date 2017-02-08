@@ -1,0 +1,8 @@
+version: '2'
+services:
+  web:
+    image: maven
+    command: mvn package
+    working_dir: /usr/src/app
+    volumes:
+     - .:/usr/src/app

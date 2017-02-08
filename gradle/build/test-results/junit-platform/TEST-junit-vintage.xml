@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JUnit Vintage" tests="6" skipped="0" failures="0" errors="1" time="0.046" hostname="abca5fcf31a2" timestamp="2017-02-08T02:10:19">
+<properties>
+<property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+<property name="file.encoding" value="US-ASCII"/>
+<property name="file.encoding.pkg" value="sun.io"/>
+<property name="file.separator" value="/"/>
+<property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+<property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+<property name="java.class.path" value="/usr/src/app/build/classes/test:/usr/src/app/build/resources/test:/usr/src/app/build/classes/main:/usr/src/app/build/resources/main:/usr/src/app/src/main/resources/algs4.jar:/root/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.0.0-M3/a0f3d812b3f3b394f0f6b1998f706a3685b28cbe/junit-jupiter-api-5.0.0-M3.jar:/root/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar:/root/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-engine/5.0.0-M3/f16a093cdb429dd643638f2f4c617f70568fb3/junit-jupiter-engine-5.0.0-M3.jar:/root/.gradle/caches/modules-2/files-2.1/org.junit.vintage/junit-vintage-engine/4.12.0-M3/d1f572b6d10949cb60e3625e791c8d2da2789882/junit-vintage-engine-4.12.0-M3.jar:/root/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.6.2/a91369f655eb1639c6aece5c5eb5108db18306/log4j-core-2.6.2.jar:/root/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-jul/2.6.2/afb8205d03d7f30405b385a2b0fdf1086bc9bc2a/log4j-jul-2.6.2.jar:/root/.gradle/caches/modules-2/files-2.1/org.opentest4j/opentest4j/1.0.0-M1/b091255eafd515995a5c5fa042cd8db6f4860bf6/opentest4j-1.0.0-M1.jar:/root/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-commons/1.0.0-M3/d5c77e2df6a820ae30fc17f21a3f8cfc03183980/junit-platform-commons-1.0.0-M3.jar:/root/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar:/root/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-engine/1.0.0-M3/39a1db55680c9f32985c84ba2951912138b18ac3/junit-platform-engine-1.0.0-M3.jar:/root/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.6.2/bd1b74a5d170686362091c7cf596bbc3adf5c09b/log4j-api-2.6.2.jar:/root/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-launcher/1.0.0-M3/86525f5274dee56f533f938f9aeae9a3716f8c4/junit-platform-launcher-1.0.0-M3.jar:/root/.gradle/caches/modules-2/files-2.1/org.junit.platform/junit-platform-console/1.0.0-M3/fec4071130bcec4081b868a59fa6cad47f11733/junit-platform-console-1.0.0-M3.jar"/>
+<property name="java.class.version" value="52.0"/>
+<property name="java.endorsed.dirs" value="/opt/jdk1.8.0_121/jre/lib/endorsed"/>
+<property name="java.ext.dirs" value="/opt/jdk1.8.0_121/jre/lib/ext:/usr/java/packages/lib/ext"/>
+<property name="java.home" value="/opt/jdk1.8.0_121/jre"/>
+<property name="java.io.tmpdir" value="/tmp"/>
+<property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+<property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+<property name="java.runtime.version" value="1.8.0_121-b13"/>
+<property name="java.specification.name" value="Java Platform API Specification"/>
+<property name="java.specification.vendor" value="Oracle Corporation"/>
+<property name="java.specification.version" value="1.8"/>
+<property name="java.vendor" value="Oracle Corporation"/>
+<property name="java.vendor.url" value="http://java.oracle.com/"/>
+<property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+<property name="java.version" value="1.8.0_121"/>
+<property name="java.vm.info" value="mixed mode"/>
+<property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+<property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+<property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+<property name="java.vm.specification.version" value="1.8"/>
+<property name="java.vm.vendor" value="Oracle Corporation"/>
+<property name="java.vm.version" value="25.121-b13"/>
+<property name="line.separator" value="
+"/>
+<property name="os.arch" value="amd64"/>
+<property name="os.name" value="Linux"/>
+<property name="os.version" value="4.9.6-1-ARCH"/>
+<property name="path.separator" value=":"/>
+<property name="sun.arch.data.model" value="64"/>
+<property name="sun.boot.class.path" value="/opt/jdk1.8.0_121/jre/lib/resources.jar:/opt/jdk1.8.0_121/jre/lib/rt.jar:/opt/jdk1.8.0_121/jre/lib/sunrsasign.jar:/opt/jdk1.8.0_121/jre/lib/jsse.jar:/opt/jdk1.8.0_121/jre/lib/jce.jar:/opt/jdk1.8.0_121/jre/lib/charsets.jar:/opt/jdk1.8.0_121/jre/lib/jfr.jar:/opt/jdk1.8.0_121/jre/classes"/>
+<property name="sun.boot.library.path" value="/opt/jdk1.8.0_121/jre/lib/amd64"/>
+<property name="sun.cpu.endian" value="little"/>
+<property name="sun.cpu.isalist" value=""/>
+<property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+<property name="sun.java.command" value="org.junit.platform.console.ConsoleLauncher --hide-details --scan-class-path /usr/src/app/build/classes/main:/usr/src/app/build/resources/main:/usr/src/app/build/classes/test:/usr/src/app/build/resources/test -n ^.*Tests?$ -T slow --reports-dir /usr/src/app/build/test-results/junit-platform"/>
+<property name="sun.java.launcher" value="SUN_STANDARD"/>
+<property name="sun.jnu.encoding" value="ANSI_X3.4-1968"/>
+<property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+<property name="sun.os.patch.level" value="unknown"/>
+<property name="user.country" value="US"/>
+<property name="user.dir" value="/usr/src/app"/>
+<property name="user.home" value="/root"/>
+<property name="user.language" value="en"/>
+<property name="user.name" value="root"/>
+<property name="user.timezone" value="Etc/UTC"/>
+<property name="user.variant" value=""/>
+</properties>
+<testcase name="testMainCall()" classname="test.java.com.app.AppTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]/[runner:test.java.com.app.AppTest]/[test:testMainCall(test.java.com.app.AppTest)]
+display-name: testMainCall
+]]></system-out>
+</testcase>
+<testcase name="testSqrt()" classname="test.java.com.app.AlgsTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]/[runner:test.java.com.app.AlgsTest]/[test:testSqrt(test.java.com.app.AlgsTest)]
+display-name: testSqrt
+]]></system-out>
+</testcase>
+<testcase name="testAverage()" classname="test.java.com.app.AlgsTest" time="0.007">
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]/[runner:test.java.com.app.AlgsTest]/[test:testAverage(test.java.com.app.AlgsTest)]
+display-name: testAverage
+]]></system-out>
+</testcase>
+<testcase name="testBinarySearch()" classname="test.java.com.app.AlgsTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]/[runner:test.java.com.app.AlgsTest]/[test:testBinarySearch(test.java.com.app.AlgsTest)]
+display-name: testBinarySearch
+]]></system-out>
+</testcase>
+<testcase name="test()" classname="test.java.com.app.FindTest" time="0.006">
+<error type="java.util.NoSuchElementException"><![CDATA[java.util.NoSuchElementException
+	at java.util.Scanner.throwFor(Scanner.java:862)
+	at java.util.Scanner.next(Scanner.java:1485)
+	at java.util.Scanner.nextInt(Scanner.java:2117)
+	at java.util.Scanner.nextInt(Scanner.java:2076)
+	at edu.princeton.cs.algs4.StdIn.readInt(StdIn.java:331)
+	at main.java.com.app.Find.main(Find.java:9)
+	at test.java.com.app.FindTest.test(FindTest.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.junit.vintage.engine.execution.RunnerExecutor.execute(RunnerExecutor.java:43)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Iterator.forEachRemaining(Iterator.java:116)
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:481)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:418)
+	at org.junit.vintage.engine.VintageTestEngine.executeAllChildren(VintageTestEngine.java:66)
+	at org.junit.vintage.engine.VintageTestEngine.execute(VintageTestEngine.java:57)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:129)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:85)
+	at org.junit.platform.console.tasks.ExecuteTestsTask.executeTests(ExecuteTestsTask.java:62)
+	at org.junit.platform.console.tasks.ExecuteTestsTask.lambda$execute$0(ExecuteTestsTask.java:54)
+	at org.junit.platform.console.tasks.CustomContextClassLoaderExecutor.invoke(CustomContextClassLoaderExecutor.java:33)
+	at org.junit.platform.console.tasks.ExecuteTestsTask.execute(ExecuteTestsTask.java:54)
+	at org.junit.platform.console.tasks.ConsoleTaskExecutor.executeTask(ConsoleTaskExecutor.java:38)
+	at org.junit.platform.console.ConsoleLauncher.execute(ConsoleLauncher.java:54)
+	at org.junit.platform.console.ConsoleLauncher.main(ConsoleLauncher.java:39)
+]]></error>
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]/[runner:test.java.com.app.FindTest]/[test:test(test.java.com.app.FindTest)]
+display-name: test
+]]></system-out>
+</testcase>
+<testcase name="test()" classname="test.java.com.app.QuickFindUFTest" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]/[runner:test.java.com.app.QuickFindUFTest]/[test:test(test.java.com.app.QuickFindUFTest)]
+display-name: test
+]]></system-out>
+</testcase>
+<system-out><![CDATA[
+unique-id: [engine:junit-vintage]
+display-name: JUnit Vintage
+]]></system-out>
+</testsuite>
